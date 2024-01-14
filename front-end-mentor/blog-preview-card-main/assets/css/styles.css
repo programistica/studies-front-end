@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;600;800&display=swap");
+
+* {
+  font-family: "Figtree", sans-serif;
+}
+
+body {
+  background: hsl(47, 88%, 63%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.card {
+  background: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 340px;
+  padding: 20px;
+  border: 1px solid hsl(0, 0%, 0%);
+  border-radius: 4%;
+  box-shadow: 10px 10px 0px -2px hsl(0, 0%, 0%);
+}
+
+.card:hover {
+  box-shadow: 10px 10px 0px 2px hsl(0, 0%, 0%);
+  translate: -2px -2px;
+  transition: 0.2s;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  height: 100%;
+  width: 100%;
+}
+
+#illustration-article {
+  border-radius: 4%;
+}
+
+#learning-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  padding-top: 20px;
+  font-weight: 600;
+}
+
+#learning-div > span {
+  background-color: hsl(47, 88%, 63%);
+  border-radius: 10%;
+  font-size: 12px;
+  padding: 5px 10px 5px 10px;
+}
+
+#date-div > h5 {
+  font-weight: 400;
+}
+
+#date-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+#title-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  height: 20px;
+  width: 100%;
+}
+
+#title-div > h3:hover {
+  color: hsl(47, 88%, 63%);
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+p {
+  display: flex;
+  flex-wrap: wrap;
+  color: hsl(0, 0%, 58%);
+}
+
+#author-div {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+}
+
+#author-div > h5 {
+  font-weight: 600;
+}
+
+#author-img {
+  height: 35px;
+  width: 35px;
+  padding-right: 10px;
+}
